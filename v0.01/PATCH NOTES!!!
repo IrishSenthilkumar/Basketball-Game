@@ -6,5 +6,6 @@ The Newtonian physics for the ball is done-ish. The player movement is only left
 but I was never taught that so I have to learn it myself.
 
 Issues to address in upcoming patches:
-- Ball movement needs to be smoothed out (Linear Depolarisation?)
+- Ball movement needs to be smoothed out (Linear Depolarisation?).
 - Player and Ball need to be on SEPERATE THREADS.
+- Need to rename some classes.
