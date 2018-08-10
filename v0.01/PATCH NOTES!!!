@@ -1,1 +1,10 @@
-The 1st version
+Version 0.01
+
+This is the very first version. I played a level called 'Extreme Basketball' in LitlleBigPlanet 2 on the PS3 ages ago. I'm going to try
+and make that level in java. 
+The Newtonian physics for the ball is done-ish. The player movement is only left and right for now. I'm trying to implement multi-threading
+but I was never taught that so I have to learn it myself.
+
+Issues to address in upcoming patches:
+- Ball movement needs to be smoothed out (Linear Depolarisation?)
+- Player and Ball need to be on SEPERATE THREADS.
