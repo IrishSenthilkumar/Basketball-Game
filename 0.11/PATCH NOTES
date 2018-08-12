@@ -1,3 +1,18 @@
 Version 0.11
 
-Ok ignore the fact that the previous version was 0.01 and this is 0.11. The game is starting to take shape now. 
+Ok ignore the fact that the previous version was 0.01 and this is 0.11. The game is starting to take shape now. I have managed to implement
+smooth animation of the ball. I just cut down the time increment of the ball and sped up the sleep cycles in the run() method. I wanted to 
+implement multi-threading, but I gess this does the job for now. Multi-threading is a must and I need to implement that to add more 
+features into the game. I managed to make a crude 'Proof-of-Concept' way of catching and throwing the ball. It works, but can be improved 
+greatly. I need to implement inheritence and polymorphism, as I'm sick of hard-coding things in and need to make the future development 
+more streamlined and hassle-free.
+
+Issues from previous patches addressed:
+- Ball movement needs to be smoothed out (Linear Depolarisation?) [v0.01]
+
+Issues to address in upcoming patches:
+- Make the ball catch and throw methods for the player be activated by just one button (Maybe VK_SPACE to catch the ball, then press 
+  VK_SPACE again to throw the ball)
+- Make the player jump and dash
+- Add basketball hoops on each side of the court
+- Flip the player raster image when running in the opposite direction
