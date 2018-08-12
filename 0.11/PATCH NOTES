@@ -16,4 +16,5 @@ Issues to address in upcoming patches:
 - Make the player jump and dash
 - Add basketball hoops on each side of the court
 - Flip the player raster image when running in the opposite direction
-- Make the ball throw off the player's hands and not throw from the player's ground position
+- Make the ball throw off the player's hands and not throw from the player's ground position (Also sometimes throws from high above the
+  player, THIS NEEDS FIXING!)
